@@ -13,7 +13,7 @@ void main()
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		arr[i] = rand() % 100 + 100;
+		arr[i] = rand() % (b - a) + a;
 	}
 
 	//вывод массива на экран
